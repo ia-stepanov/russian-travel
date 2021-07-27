@@ -1,0 +1,13 @@
+.footer__item {
+  margin: 0 1.125rem 0 0;
+}
+
+@media screen and (max-width: 540px) {
+  .footer__item {
+    margin: 2rem 0 0;
+  }
+
+  .footer__item:first-child {
+    margin-top: 0;
+  }
+}

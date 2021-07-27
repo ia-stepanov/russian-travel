@@ -17,3 +17,9 @@
     padding: 0 calc(1rem + (100vw - 320px) / (768 - 320) * (24 - 16));
   }
 }
+
+@media screen and (max-width: 425px) {
+  .intro {
+    margin: 4.5rem auto 0;
+  }
+}

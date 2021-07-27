@@ -16,3 +16,9 @@
     margin: calc(2.5rem + (100vw - 320px) / (768 - 320) * (56 - 48)) auto 0;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .lead {
+    margin: 3.25rem auto 0;
+  }
+}
