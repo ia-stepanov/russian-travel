@@ -1,0 +1,18 @@
+
+
+.lead__image {
+  width: 100%;
+  margin: 4rem auto 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__image {
+    margin: calc(3.5rem + (100vw - 1024px) / (1280 - 1024) * (64 - 56)) auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin: calc(2.5rem + (100vw - 320px) / (768 - 320) * (56 - 40)) auto 0;
+  }
+}

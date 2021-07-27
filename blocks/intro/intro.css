@@ -1,0 +1,19 @@
+.intro {
+  max-width: 984px;
+  margin: 6rem auto 0;
+  padding: 0 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: calc(5.75rem + (100vw - 768px) / (1024 - 768) * (92 - 88)) auto 0;
+    padding: 0 calc(1.5rem + (100vw - 768px) / (1024 - 768) * (48 - 24));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: calc(4.25rem + (100vw - 320px) / (768 - 320) * (88 - 64)) auto 0;
+    padding: 0 calc(1rem + (100vw - 320px) / (768 - 320) * (24 - 16));
+  }
+}

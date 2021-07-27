@@ -1,0 +1,13 @@
+.header__link_active {
+  position: relative;
+}
+
+.header__link_active:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}

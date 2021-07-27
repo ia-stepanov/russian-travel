@@ -1,0 +1,29 @@
+.place__link {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.375rem;
+  transition: opacity .2s linear;
+}
+
+.place__link:hover {
+  opacity: .8;
+}
+
+.place__link:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+
+@media screen and (max-width: 425px) {
+  .place__link {
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+.header {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1.75rem 3rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 1.75rem calc(1.5rem + (100vw - 768px) / (1024 - 768) * (48 - 24)) 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: calc(1rem + (100vw - 320px) / (768 - 320) * (28 - 16)) calc(1rem + (100vw - 320px) / (768 - 320) * (24 - 16)) 0;
+  }
+}

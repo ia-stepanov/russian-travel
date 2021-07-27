@@ -1,0 +1,23 @@
+.place__paragrapg {
+  margin: 0 0 1.625rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.835rem;
+}
+
+.place__paragrapg:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragrapg {
+    font-size: calc(0.95rem + (100vw - 320px) / (768 - 320));
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragrapg {
+    padding: 0 1rem;
+  }
+}

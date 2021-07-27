@@ -1,0 +1,18 @@
+.lead {
+  max-width: 984px;
+  margin: 3.5rem auto 0;
+  padding: 0 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: calc(2.5rem + (100vw - 768px) / (1024 - 768) * (56 - 48)) auto 0;
+    padding: 0 calc((100vw - 768px) / (1024 - 768) * 48);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    margin: calc(2.5rem + (100vw - 320px) / (768 - 320) * (56 - 48)) auto 0;
+  }
+}
