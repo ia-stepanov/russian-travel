@@ -1,0 +1,15 @@
+@keyframes go_way {
+  to {
+    stroke-dashoffset: 2780;
+  }
+}
+
+.lead__way {
+  animation: go_way 20s linear forwards;
+
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+  stroke-dasharray: 1390;
+  stroke-dashoffset: 1390;
+}

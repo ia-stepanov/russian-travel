@@ -1,18 +1,40 @@
-
-
 .lead__image {
-  width: 100%;
   margin: 4rem auto 0;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 90.21px 23.64px 261.8px 23.27px;
+
+  background-image: url(../../../images/lead/lead-polka.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1280px) {
   .lead__image {
-    margin: calc(3.5rem + (100vw - 1024px) / (1280 - 1024) * (64 - 56)) auto 0;
+    margin: calc(2.5rem + (100vw - 320px) / (768 - 320) * (56 - 40)) auto 0;
+    padding-top: calc((100vw - 1024px) / (1280 - 1024) * (90.21 - 85.07) + 85.07px);
+    padding-right: calc((100vw - 1024px) / (1280 - 1024) * (23.64 - 22.3) + 22.3px);
+    padding-bottom: calc((100vw - 1024px) / (1280 - 1024) * (261.8 - 246.9) + 246.9px);
+    padding-left: calc((100vw - 1024px) / (1280 - 1024) * (23.27 - 21.95) + 21.95px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    padding-top: calc((100vw - 768px) / (1024 - 768) * (85.07 - 70.41) + 70.41px);
+    padding-right: calc((100vw - 768px) / (1024 - 768) * (22.3 - 18.45) + 18.45px);
+    padding-bottom: calc((100vw - 768px) / (1024 - 768) * (246.9 - 204.33) + 204.33px);
+    padding-left: calc((100vw - 768px) / (1024 - 768) * (21.95 - 18.16) + 18.16px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__image {
     margin: calc(2.5rem + (100vw - 320px) / (768 - 320) * (56 - 40)) auto 0;
+    padding-top: calc((100vw - 320px) / (768 - 320) * (70.41 - 29.34) + 29.34px);
+    padding-right: calc((100vw - 320px) / (768 - 320) * (18.45 - 7.69) + 7.69px);
+    padding-bottom: calc((100vw - 320px) / (768 - 320) * (204.33 - 85.14) + 85.14px);
+    padding-left: calc((100vw - 320px) / (768 - 320) * (18.16 - 7.57) + 7.57px);
   }
 }

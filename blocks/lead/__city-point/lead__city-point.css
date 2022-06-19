@@ -1,0 +1,142 @@
+@keyframes visible-city-point {
+  to {
+    opacity: 1;
+  }
+}
+
+.lead__city-point:nth-child(14) {
+  animation: visible-city-point 0.5s linear forwards;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(15) {
+  animation: visible-city 0.5s linear forwards 1.8s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(16) {
+  animation: visible-city 0.5s linear forwards 1.8s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(17) {
+  animation: visible-city 0.5s linear forwards 4.5s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(18) {
+  animation: visible-city 0.5s linear forwards 4.5s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(19) {
+  animation: visible-city 0.5s linear forwards 5.6s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(20) {
+  animation: visible-city 0.5s linear forwards 5.6s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(21) {
+  animation: visible-city 0.5s linear forwards 7.5s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(22) {
+  animation: visible-city 0.5s linear forwards 7.5s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(23) {
+  animation: visible-city 0.5s linear forwards 8.9s;
+
+  opacity: 0;
+}
+.lead__city-point:nth-child(24) {
+  animation: visible-city 0.5s linear forwards 8.9s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(25) {
+  animation: visible-city 0.5s linear forwards 11.9s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(26) {
+  animation: visible-city 0.5s linear forwards 11.9s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(27) {
+  animation: visible-city 0.5s linear forwards 13s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(28) {
+  animation: visible-city 0.5s linear forwards 13s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(29) {
+  animation: visible-city 0.5s linear forwards 14.1s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(30) {
+  animation: visible-city 0.5s linear forwards 14.1s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(31) {
+  animation: visible-city 0.5s linear forwards 15.8s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(32) {
+  animation: visible-city 0.5s linear forwards 15.8s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(33) {
+  animation: visible-city 0.5s linear forwards 18.8s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(34) {
+  animation: visible-city 0.5s linear forwards 18.8s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(35) {
+  animation: visible-city 0.5s linear forwards 19.9s;
+
+  opacity: 0;
+}
+
+.lead__city-point:nth-child(36) {
+  animation: visible-city 0.5s linear forwards 19.9s;
+
+  opacity: 0;
+}

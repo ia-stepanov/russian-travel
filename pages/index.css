@@ -15,6 +15,9 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__way/lead__way.css);
+@import url(../blocks/lead/__city/lead__city.css);
+@import url(../blocks/lead/__city-point/lead__city-point.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
